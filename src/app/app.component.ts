@@ -10,6 +10,5 @@ export class AppComponent implements OnInit {
   constructor(private titleService: Title, private metaService: Meta) { }
   title = 'angular-ssr';
   ngOnInit(): void {
-    this.titleService.setTitle('Cheers!');
   }
 }
