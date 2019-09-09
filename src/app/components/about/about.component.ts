@@ -11,9 +11,9 @@ export class AboutComponent implements OnInit {
   constructor(private titleService: Title, private metaService: Meta) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Home / Angular SSR');
+    this.titleService.setTitle('About / Angular SSR');
     this.metaService.updateTag({
-      description: 'Welcome to home section'
+      description: 'Welcome to about section'
     });
   }
 
